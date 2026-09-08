@@ -273,8 +273,9 @@
     {
       "@id": "https://repolex.ai/r/image-rs/image/commit/98b001da0ddcd91936a716696fba877df910b61d",
       "git:hexsha": "98b001da0ddcd91936a716696fba877df910b61d",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v0.25.8"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v0.25.8",
+      "repolex:parsedAt": "2026-09-08T11:05:58.058752+00:00"
     },
     {
       "@id": "https://repolex.ai/r/image-rs/image/commit/5ceb6af6c2b6671931a02fda955ce1676321711d",
