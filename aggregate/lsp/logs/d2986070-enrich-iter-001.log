@@ -1,0 +1,45 @@
+[2026-09-15T17:00:28Z] === ENRICH ITERATION 1 START | repo=image-rs/image sha=d2986070 ===
+[2026-09-15T17:00:28Z] [iter=1] PHASE START: enrich repo=image-rs/image sha=d2986070 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d2986070-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d2986070139b729cd2e1305d49a91d8596ba64bc.nq.gz
+[2026-09-15T17:00:56Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-15T17:01:05Z] [iter=1] AST store loaded triples=1226918 load_secs=8 mem_mb=874 MB
+[2026-09-15T17:01:05Z] [iter=1] Step 2: Finding LSP targets mem_mb=874 MB
+[2026-09-15T17:01:08Z] [iter=1] LSP targets found call_sites=8987 imports=0 extends=0 implements=365 secs=3
+[2026-09-15T17:01:11Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=874 MB
+[2026-09-15T17:01:17Z] [iter=1] Position index built positions=76044 nodes_with_types=92775 secs=7 mem_mb=874 MB
+[2026-09-15T17:01:17Z] [iter=1] Step 3: Starting LSP resolution mem_mb=874 MB already_completed_types=[] already_completed_files=0
+[2026-09-15T17:01:17Z] [iter=1] Resolving target type target_type=call_site count=8987
+[2026-09-15T17:01:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=0 resolved=0 errors=0 current=src/codecs/gif.rs
+[2026-09-15T17:02:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.0 files_done=1 resolved=98 errors=64 current=src/codecs/dds.rs
+[2026-09-15T17:03:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.1 files_done=3 resolved=279 errors=201 current=src/imageops/affine.rs
+[2026-09-15T17:04:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=4 resolved=324 errors=284 current=src/codecs/avif/decoder.rs
+[2026-09-15T17:06:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.0 files_done=6 resolved=397 errors=538 current=src/codecs/bmp/decoder.rs
+[2026-09-15T17:07:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=7 resolved=638 errors=635 current=src/codecs/hdr/encoder.rs
+[2026-09-15T17:08:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.6 files_done=9 resolved=851 errors=729 current=src/imageops/colorops.rs
+[2026-09-15T17:09:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.5 files_done=10 resolved=953 errors=840 current=src/codecs/webp/loop_filter.rs
+[2026-09-15T17:09:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=12 resolved=1030 errors=939 current=src/codecs/webp/lossless_transform.rs
+[2026-09-15T17:10:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.2 files_done=13 resolved=1084 errors=1038 current=src/codecs/pnm/decoder.rs
+[2026-09-15T17:11:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.2 files_done=14 resolved=1382 errors=1151 current=src/error.rs
+[2026-09-15T17:14:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.7 files_done=17 resolved=1747 errors=1456 current=benches/copy_from.rs
+[2026-09-15T17:15:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.1 files_done=20 resolved=1998 errors=1614 current=src/io/free_functions.rs
+[2026-09-15T17:17:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.7 files_done=22 resolved=2212 errors=1811 current=src/codecs/webp/extended.rs
+[2026-09-15T17:17:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.3 files_done=23 resolved=2320 errors=1872 current=src/codecs/hdr/decoder.rs
+[2026-09-15T17:18:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.9 files_done=24 resolved=2522 errors=1950 current=src/codecs/webp/lossless.rs
+[2026-09-15T17:18:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.5 files_done=27 resolved=2750 errors=2014 current=src/codecs/png.rs
+[2026-09-15T17:19:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.1 files_done=28 resolved=2879 errors=2090 current=src/codecs/avif/encoder.rs
+[2026-09-15T17:20:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.3 files_done=30 resolved=3049 errors=2226 current=src/codecs/pnm/autobreak.rs
+[2026-09-15T17:21:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.3 files_done=32 resolved=3153 errors=2344 current=src/codecs/openexr.rs
+[2026-09-15T17:22:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.9 files_done=33 resolved=3262 errors=2421 current=src/codecs/jpeg/encoder.rs
+[2026-09-15T17:23:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.6 files_done=34 resolved=3385 errors=2493 current=src/codecs/pnm/encoder.rs
+[2026-09-15T17:23:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.1 files_done=35 resolved=3447 errors=2557 current=src/codecs/webp/huffman.rs
+[2026-09-15T17:24:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.6 files_done=37 resolved=3558 errors=2621 current=examples/concat/main.rs
+[2026-09-15T17:25:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.6 files_done=43 resolved=3842 errors=2729 current=src/codecs/jpeg/decoder.rs
+[2026-09-15T17:25:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=46 resolved=3994 errors=2803 current=fuzz-afl/fuzzers/fuzz_pnm.rs
+[2026-09-15T17:26:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.8 files_done=52 resolved=4146 errors=2869 current=tests/truncate_images.rs
+[2026-09-15T17:26:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.5 files_done=64 resolved=4281 errors=2951 current=src/codecs/tga/header.rs
+[2026-09-15T17:27:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.0 files_done=76 resolved=4350 errors=3012 current=examples/decode.rs
+[2026-09-15T17:27:29Z] [iter=1] Target type resolved target_type=call_site resolved=4361 errors=3015 secs=1572 mem_mb=874 MB
+[2026-09-15T17:27:29Z] [iter=1] Resolving target type target_type=implements_clause count=365
+[2026-09-15T17:27:52Z] [iter=1] Target type resolved target_type=implements_clause resolved=356 errors=0 secs=22 mem_mb=874 MB
+[2026-09-15T17:28:17Z] [iter=1] Step 5: Writing final enrichment file triples=70787
+[2026-09-15T17:28:18Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d2986070139b729cd2e1305d49a91d8596ba64bc.nq.gz size_kb=1413
+[2026-09-15T17:28:18Z] [iter=1] PHASE END: enrich elapsed_s=1670 elapsed_min=27.8 total_triples=70787
