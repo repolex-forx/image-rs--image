@@ -1,0 +1,44 @@
+[2026-09-15T15:29:18Z] === ENRICH ITERATION 1 START | repo=image-rs/image sha=1028cff9 ===
+[2026-09-15T15:29:18Z] [iter=1] PHASE START: enrich repo=image-rs/image sha=1028cff9 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/1028cff9-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/1028cff98b00c9f20c6ab1e6098bbdf6da70132d.nq.gz
+[2026-09-15T15:29:47Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-15T15:29:55Z] [iter=1] AST store loaded triples=1236827 load_secs=8 mem_mb=866 MB
+[2026-09-15T15:29:55Z] [iter=1] Step 2: Finding LSP targets mem_mb=866 MB
+[2026-09-15T15:29:58Z] [iter=1] LSP targets found call_sites=9082 imports=0 extends=0 implements=371 secs=3
+[2026-09-15T15:30:01Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=866 MB
+[2026-09-15T15:30:06Z] [iter=1] Position index built positions=76690 nodes_with_types=93603 secs=6 mem_mb=866 MB
+[2026-09-15T15:30:06Z] [iter=1] Step 3: Starting LSP resolution mem_mb=866 MB already_completed_types=[] already_completed_files=0
+[2026-09-15T15:30:06Z] [iter=1] Resolving target type target_type=call_site count=9082
+[2026-09-15T15:30:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=0 resolved=0 errors=0 current=fuzz/fuzzers/fuzzer_script_exr.rs
+[2026-09-15T15:31:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=2 resolved=138 errors=59 current=src/codecs/webp/lossless.rs
+[2026-09-15T15:32:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=5 resolved=439 errors=179 current=src/codecs/tiff.rs
+[2026-09-15T15:32:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.5 files_done=7 resolved=515 errors=237 current=src/codecs/bmp/decoder.rs
+[2026-09-15T15:33:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.4 files_done=8 resolved=765 errors=340 current=src/codecs/webp/extended.rs
+[2026-09-15T15:34:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.0 files_done=9 resolved=874 errors=406 current=src/codecs/avif/encoder.rs
+[2026-09-15T15:36:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.2 files_done=11 resolved=1074 errors=668 current=src/image.rs
+[2026-09-15T15:37:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.4 files_done=12 resolved=1270 errors=806 current=src/codecs/farbfeld.rs
+[2026-09-15T15:38:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.2 files_done=14 resolved=1399 errors=896 current=src/codecs/dxt.rs
+[2026-09-15T15:40:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.8 files_done=16 resolved=1752 errors=1084 current=src/dynimage.rs
+[2026-09-15T15:42:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=17 resolved=1824 errors=1336 current=src/codecs/ico/decoder.rs
+[2026-09-15T15:42:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.6 files_done=19 resolved=1947 errors=1401 current=src/codecs/openexr.rs
+[2026-09-15T15:43:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=20 resolved=2056 errors=1478 current=src/flat.rs
+[2026-09-15T15:44:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.2 files_done=21 resolved=2185 errors=1586 current=src/codecs/tga/decoder.rs
+[2026-09-15T15:45:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.5 files_done=23 resolved=2558 errors=1734 current=src/color.rs
+[2026-09-15T15:46:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.5 files_done=24 resolved=2628 errors=1849 current=src/codecs/jpeg/decoder.rs
+[2026-09-15T15:47:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.3 files_done=26 resolved=2876 errors=1947 current=src/codecs/webp/decoder.rs
+[2026-09-15T15:48:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.3 files_done=28 resolved=3088 errors=2057 current=src/codecs/webp/lossless_transform.rs
+[2026-09-15T15:49:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.1 files_done=29 resolved=3145 errors=2156 current=examples/scaledown/main.rs
+[2026-09-15T15:50:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.2 files_done=33 resolved=3262 errors=2275 current=tests/reference_images.rs
+[2026-09-15T15:51:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.0 files_done=35 resolved=3401 errors=2368 current=src/animation.rs
+[2026-09-15T15:52:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.3 files_done=40 resolved=3592 errors=2518 current=src/error.rs
+[2026-09-15T15:53:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.3 files_done=47 resolved=3802 errors=2628 current=src/imageops/sample.rs
+[2026-09-15T15:54:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.4 files_done=48 resolved=3972 errors=2764 current=src/traits.rs
+[2026-09-15T15:55:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.2 files_done=52 resolved=4050 errors=2852 current=src/codecs/gif.rs
+[2026-09-15T15:56:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.8 files_done=53 resolved=4148 errors=2916 current=src/io/reader.rs
+[2026-09-15T15:56:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.3 files_done=61 resolved=4273 errors=2978 current=tests/save_jpeg.rs
+[2026-09-15T15:57:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.8 files_done=77 resolved=4401 errors=3040 current=fuzz-afl/fuzzers/fuzz_webp.rs
+[2026-09-15T15:57:09Z] [iter=1] Target type resolved target_type=call_site resolved=4402 errors=3042 secs=1623 mem_mb=866 MB
+[2026-09-15T15:57:09Z] [iter=1] Resolving target type target_type=implements_clause count=371
+[2026-09-15T15:57:31Z] [iter=1] Target type resolved target_type=implements_clause resolved=360 errors=0 secs=22 mem_mb=866 MB
+[2026-09-15T15:57:57Z] [iter=1] Step 5: Writing final enrichment file triples=71499
+[2026-09-15T15:57:58Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/1028cff98b00c9f20c6ab1e6098bbdf6da70132d.nq.gz size_kb=1427
+[2026-09-15T15:57:58Z] [iter=1] PHASE END: enrich elapsed_s=1720 elapsed_min=28.7 total_triples=71499
