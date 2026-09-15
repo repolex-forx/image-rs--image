@@ -1,0 +1,7 @@
+[2026-09-15T00:59:28Z] === AST ITERATION 1 START | repo=image-rs/image sha=b7617037 ===
+[2026-09-15T00:59:28Z] [iter=1] PHASE START: ast repo=image-rs/image sha=b7617037
+[2026-09-15T00:59:28Z] [iter=1] Building AST aggregate chunks
+[2026-09-15T01:00:59Z] [iter=1] AST chunks built count=1 triples=1027819
+[2026-09-15T01:00:59Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/b7617037c8e05eb538c55799622855db37c26d3b/.complete
+[2026-09-15T01:00:59Z] [iter=1] PHASE END: ast elapsed_s=91 elapsed_min=1.5
+[2026-09-15T01:00:59Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
